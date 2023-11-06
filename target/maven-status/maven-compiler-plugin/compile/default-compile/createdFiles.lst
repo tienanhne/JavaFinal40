@@ -1,8 +1,10 @@
 GUI\RentBook$1.class
 GUI\HomePage$2.class
+GUI\UsersMana$4.class
 GUI\User\ViewBooks$3.class
 GUI\RentBook$4.class
 GUI\SignUpPage.class
+GUI\UsersMana$1.class
 GUI\SignUpPage$5.class
 GUI\Remove_Books.class
 GUI\Remove_Staff.class
@@ -32,6 +34,8 @@ GUI\User\ViewStaffs$2.class
 GUI\Remove_Staff$2.class
 GUI\User\ViewBooks$1.class
 GUI\User\ViewStaffs.class
+GUI\UsersMana$2.class
+GUI\Dashboard$14.class
 GUI\HomePage.class
 GUI\User\ViewBooks$8.class
 GUI\Edit_Admin$4.class
@@ -80,6 +84,7 @@ GUI\RentBook$2.class
 GUI\User\ViewStaffs$1.class
 GUI\Dashboard$1.class
 GUI\Remove_Books$3.class
+GUI\UsersMana$3.class
 GUI\RentBook$5.class
 GUI\Edit_Admin.class
 GUI\User\Profile$2.class
@@ -99,6 +104,7 @@ GUI\RentBook.class
 GUI\Books_Available$6.class
 com\mycompany\projecthibernate\Testhibernate.class
 GUI\HomePage$3.class
+GUI\UsersMana.class
 GUI\Dashboard$10.class
 GUI\LoginPage.class
 GUI\User\Profile$1.class
@@ -110,6 +116,7 @@ GUI\Add_Books$6.class
 GUI\Staff_Details$2.class
 GUI\User\Profile$7.class
 GUI\RentBook$3.class
+GUI\UsersMana$5.class
 GUI\Edit_Admin$1.class
 GUI\SignUpPage$1.class
 model\Admin.class
