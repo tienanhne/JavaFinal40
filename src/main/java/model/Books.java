@@ -12,6 +12,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import java.sql.Blob;
 
 @Entity
 @Table(name = "books")
@@ -37,12 +38,15 @@ public class Books {
 
     @Column(name = "quantity")
     private int quantity;
+    
+    @Column(name = "image")
+    private byte[] image;
 
     public Books() {
     }
     
 
-    public Books(int bookId, String namebook, String category, String author, int copies, double price, int quantity) {
+    public Books(int bookId, String namebook, String category, String author, int copies, double price, int quantity, byte[] image) {
         this.bookId = bookId;
         this.namebook = namebook;
         this.category = category;
@@ -50,7 +54,17 @@ public class Books {
         this.copies = copies;
         this.price = price;
         this.quantity = quantity;
+        this.image = image;
     }
+
+    public byte[] getImage() {
+        return image;
+    }
+
+    public void setImage(byte[] image) {
+        this.image = image;
+    }
+    
 
     public int getBookId() {
         return bookId;
@@ -110,9 +124,8 @@ public class Books {
 
     @Override
     public String toString() {
-        return "Books{" + "bookId=" + bookId + ", name=" + namebook + ", category=" + category + ", author=" + author + ", copies=" + copies + ", price=" + price + ", quantity=" + quantity + '}';
+        return "Books{" + "bookId=" + bookId + ", namebook=" + namebook + ", category=" + category + ", author=" + author + ", copies=" + copies + ", price=" + price + ", quantity=" + quantity + ", image=" + image + '}';
     }
 
-    
     
 }

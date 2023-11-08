@@ -1,6 +1,7 @@
 GUI\RentBook$1.class
 GUI\HomePage$2.class
 GUI\UsersMana$4.class
+GUI\Add_Books$10.class
 GUI\User\ViewBooks$3.class
 GUI\RentBook$4.class
 GUI\SignUpPage.class
